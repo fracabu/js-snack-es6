@@ -11,7 +11,7 @@ solo nomi e falli subiti e stampiamo tutto in console.
 
 
 //array di oggetti squadre di calcio con tre chiavi (nome punti falli)
-let listaSquadreCalcio = [
+const listaSquadreCalcio = [
     {
         nome: 'Roma',
         punti: 0,
@@ -52,7 +52,13 @@ for (let i = 0; i < listaSquadreCalcio.length; i++) {
     listaSquadreCalcio[i].falli = random(57);
 }
 
-//ciclo per destrutturazione
+//ciclo per destrutturazione PERCHE' MI STAMPA SOLO IL PRIMO ELEMENTO????
+for(let i = 0; i < listaSquadreCalcio.length; i++){
+// creo nuovo array che con destrutturazione che contiene solo nome e falli
+const [{nome, falli}] = listaSquadreCalcio;
+console.log (nome, falli);
+};
+
 
 // stampare in console
 for (let key in listaSquadreCalcio) {
