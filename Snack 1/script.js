@@ -35,7 +35,11 @@ let elencoBiciDaCorsa = [
 
 
 
+
+
+
 let biciLeggera = elencoBiciDaCorsa[0];
+const bikeContainer = document.getElementById(bike-container);
 
 for (let i = 0; i < elencoBiciDaCorsa.length; i++) {
     if (elencoBiciDaCorsa[i].peso < biciLeggera.peso) {
@@ -44,9 +48,3 @@ for (let i = 0; i < elencoBiciDaCorsa.length; i++) {
 }
 console.log (elencoBiciDaCorsa);
 console.log(biciLeggera);
-
-
-document.getElementById("stampaBiciLeggera").h1.innerText;
-function stampaBiciLeggera(){
-    console.log(stampaBiciLeggera)
-}
