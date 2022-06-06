@@ -7,29 +7,28 @@ Stampare a schermo la bici con peso minore utilizzando destructuring e template 
 let elencoBiciDaCorsa = [
     { 
         nome: "bici 1",
-        peso: "7",
+        peso: 7,
     
     },
 
-
     { 
         nome: "bici 2",
-        peso: "8",
+        peso: 8,
     },
 
     { 
         nome: "bici 3",
-        peso: "10",
+        peso: 10,
     },
 
     { 
         nome: "bici 4",
-        peso: "9",
+        peso: 9,
     },
 
     { 
         nome: "bici 5",
-        peso: "6",
+        peso: 6,
     },
     
 ];
