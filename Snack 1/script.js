@@ -44,3 +44,9 @@ for (let i = 0; i < elencoBiciDaCorsa.length; i++) {
 }
 console.log (elencoBiciDaCorsa);
 console.log(biciLeggera);
+
+
+document.getElementById("stampaBiciLeggera").h1.innerText;
+function stampaBiciLeggera(){
+    console.log(stampaBiciLeggera)
+}
