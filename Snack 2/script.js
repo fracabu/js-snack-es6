@@ -55,7 +55,7 @@ for (let i = 0; i < listaSquadreCalcio.length; i++) {
 //ciclo per destrutturazione PERCHE' MI STAMPA SOLO IL PRIMO ELEMENTO????
 for(let i = 0; i < listaSquadreCalcio.length; i++){
 // creo nuovo array con destrutturazione che contiene solo nome e falli
-const [{nome, falli}] = listaSquadreCalcio;
+const {nome, falli} = listaSquadreCalcio[i];
 console.log (nome, falli);
 };
 

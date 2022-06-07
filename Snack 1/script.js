@@ -39,7 +39,7 @@ let elencoBiciDaCorsa = [
 
 
 let biciLeggera = elencoBiciDaCorsa[0];
-const bikeContainer = document.getElementById(bike-container);
+const bikeContainer = document.getElementById("bike-container");
 
 for (let i = 0; i < elencoBiciDaCorsa.length; i++) {
     if (elencoBiciDaCorsa[i].peso < biciLeggera.peso) {
@@ -48,3 +48,11 @@ for (let i = 0; i < elencoBiciDaCorsa.length; i++) {
 }
 console.log (elencoBiciDaCorsa);
 console.log(biciLeggera);
+
+const container = document.getElementById("bike-container")
+function printBiciPiuLeggera(biciPiuLeggera, bikeContainer){
+    container.innerHTML += 
+
+};
+
+printBiciPiuLeggera(biciPiuLeggera, bike-container)
