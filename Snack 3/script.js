@@ -20,8 +20,16 @@ myArray.forEach((elementoCorrente, i, arrayOriginale) => {
 	
     console.log(elementoCorrente,i,arrayOriginale);
     
-
 });
+
+myArray = myArray.filter((elementoCorrente, i, arrayOriginale) => {
+	// true o false  a seconda di una qualsiasi condizione
+	// se ritorniamo true, l'elemento corrente verrà inserito nel nuovo 
+	// array generato, altrimento verrà ignorato.
+	return elementoCorrente
+
+
+
 
 
 

@@ -21,7 +21,7 @@ voti superiore a 70 e id superiore a 120
 
 let students = [
     { name: 'Marco', id: 213, grades: 78 },
-    { name: 'Paol', id: 110, grades: 96 },
+    { name: 'Paolo', id: 110, grades: 96 },
     { name: 'Andrea', id: 250, grades: 48 },
     { name: 'Gaia', id: 145, grades: 74 },
     { name: 'Luigi', id: 196, grades: 68 },
@@ -30,3 +30,18 @@ let students = [
 ];
 
   //step 1 creazione array di stringhe con nome studente tutto in maiuscolo
+
+  let studentsName = ['Marco', 'Paolo', 'Andrea', 'Gaia', 'Luigi', 'Piero', 'Francesca'];
+  studentsName.forEach((studentsName, i, arrayOriginale)=> {
+    arrayOriginale[i] = studentsName.toUpperCase();
+      
+  });
+
+  console.log(studentsName);
+
+  // step 2 creazione nuovo array con studenti che hanno un voto superiore a 70
+
+  let studentsVoti1 = [];
+  if (grades >= 70){
+
+  }
