@@ -8,25 +8,20 @@ Eseguiamo questo esercizio prima con forEach e poi con filter.
 */
 
 const myArray = ['Michele', 'Fabio', 'Roberto', 'Giovanni', 'Simone', 'Chiara'];
-let min = Math.floor(Math.random() * 10);
-let max = Math.floor(Math.random() * 10);
-if (min < max){
-    console.log(min, max);
-    
 
-}
-    
-myArray.forEach((elementoCorrente, i, arrayOriginale) => {
-	
-    console.log(elementoCorrente,i,arrayOriginale);
-    
+    const numMin = 1;
+    const numMax = 4;
+
+    const nuovoArray =[];
+    myArray.forEach((guest, i) => {
+    if (i >= numMin && i <= numMax){
+        nuovoArray.push(guest)
+    }
 });
 
-myArray = myArray.filter((elementoCorrente, i, arrayOriginale) => {
-	// true o false  a seconda di una qualsiasi condizione
-	// se ritorniamo true, l'elemento corrente verrà inserito nel nuovo 
-	// array generato, altrimento verrà ignorato.
-	return elementoCorrente
+console.log(nuovoArray);
+    
+
 
 
 

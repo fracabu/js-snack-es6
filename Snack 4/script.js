@@ -41,7 +41,10 @@ let students = [
 
   // step 2 creazione nuovo array con studenti che hanno un voto superiore a 70
 
-  let studentsVoti1 = [];
-  if (grades >= 70){
+  const filteredStudents = students.filter ((students) =>{
+      if(students.grades >= 70);
 
-  }
+  });
+    console.log(filtered.Students);
+
+  
