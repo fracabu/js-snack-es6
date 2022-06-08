@@ -20,7 +20,11 @@ const myArray = ['Michele', 'Fabio', 'Roberto', 'Giovanni', 'Simone', 'Chiara'];
 });
 
 console.log(nuovoArray);
-    
+
+
+    const nuovoArrayFilter = myArray.filter((guest,i) => i >= numMin && i <= numMax);
+
+    console.log(nuovoArrayFilter);
 
 
 
